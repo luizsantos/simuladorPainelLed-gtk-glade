@@ -10,7 +10,6 @@
       <object class="GtkVBox" id="vbox1">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <signal name="button-press-event" handler="ok" swapped="no"/>
         <child>
           <object class="GtkTable" id="table1">
             <property name="visible">True</property>
@@ -18,17 +17,17 @@
             <property name="n_rows">5</property>
             <property name="n_columns">30</property>
             <child>
-              <object class="GtkImage" id="image1">
+              <object class="GtkLabel" id="label2">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
             </child>
             <child>
-              <object class="GtkImage" id="image2">
+              <object class="GtkLabel" id="label3">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -36,10 +35,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image3">
+              <object class="GtkLabel" id="label4">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
@@ -47,10 +46,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image4">
+              <object class="GtkLabel" id="label5">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">3</property>
@@ -58,10 +57,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image5">
+              <object class="GtkLabel" id="label6">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">4</property>
@@ -69,10 +68,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image6">
+              <object class="GtkLabel" id="label7">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">5</property>
@@ -80,10 +79,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image7">
+              <object class="GtkLabel" id="label8">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">6</property>
@@ -91,10 +90,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image8">
+              <object class="GtkLabel" id="label9">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">7</property>
@@ -102,10 +101,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image9">
+              <object class="GtkLabel" id="label10">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">8</property>
@@ -113,10 +112,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image10">
+              <object class="GtkLabel" id="label11">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">9</property>
@@ -124,10 +123,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image11">
+              <object class="GtkLabel" id="label12">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">10</property>
@@ -135,10 +134,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image12">
+              <object class="GtkLabel" id="label13">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">11</property>
@@ -146,10 +145,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image13">
+              <object class="GtkLabel" id="label14">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">12</property>
@@ -157,10 +156,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image14">
+              <object class="GtkLabel" id="label15">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">13</property>
@@ -168,10 +167,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image15">
+              <object class="GtkLabel" id="label16">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">14</property>
@@ -179,10 +178,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image16">
+              <object class="GtkLabel" id="label17">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">15</property>
@@ -190,10 +189,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image17">
+              <object class="GtkLabel" id="label18">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">16</property>
@@ -201,10 +200,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image18">
+              <object class="GtkLabel" id="label19">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">17</property>
@@ -212,10 +211,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image19">
+              <object class="GtkLabel" id="label20">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">18</property>
@@ -223,10 +222,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image20">
+              <object class="GtkLabel" id="label21">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">19</property>
@@ -234,10 +233,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image21">
+              <object class="GtkLabel" id="label22">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">20</property>
@@ -245,10 +244,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image22">
+              <object class="GtkLabel" id="label23">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">21</property>
@@ -256,10 +255,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image23">
+              <object class="GtkLabel" id="label24">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">22</property>
@@ -267,10 +266,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image24">
+              <object class="GtkLabel" id="label25">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">23</property>
@@ -278,10 +277,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image25">
+              <object class="GtkLabel" id="label26">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">24</property>
@@ -289,10 +288,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image26">
+              <object class="GtkLabel" id="label27">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">25</property>
@@ -300,10 +299,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image27">
+              <object class="GtkLabel" id="label28">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">26</property>
@@ -311,10 +310,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image28">
+              <object class="GtkLabel" id="label29">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">27</property>
@@ -322,10 +321,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image29">
+              <object class="GtkLabel" id="label30">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">28</property>
@@ -333,10 +332,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image30">
+              <object class="GtkLabel" id="label31">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">29</property>
@@ -344,10 +343,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image31">
+              <object class="GtkLabel" id="label32">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="top_attach">1</property>
@@ -355,10 +354,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image32">
+              <object class="GtkLabel" id="label33">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -368,10 +367,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image33">
+              <object class="GtkLabel" id="label34">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
@@ -381,10 +380,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image34">
+              <object class="GtkLabel" id="label35">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">3</property>
@@ -394,10 +393,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image35">
+              <object class="GtkLabel" id="label36">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">4</property>
@@ -407,10 +406,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image36">
+              <object class="GtkLabel" id="label37">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">5</property>
@@ -420,10 +419,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image37">
+              <object class="GtkLabel" id="label38">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">6</property>
@@ -433,10 +432,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image38">
+              <object class="GtkLabel" id="label39">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">7</property>
@@ -446,10 +445,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image39">
+              <object class="GtkLabel" id="label40">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">8</property>
@@ -459,10 +458,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image40">
+              <object class="GtkLabel" id="label41">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">9</property>
@@ -472,10 +471,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image41">
+              <object class="GtkLabel" id="label42">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">10</property>
@@ -485,10 +484,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image42">
+              <object class="GtkLabel" id="label43">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">11</property>
@@ -498,10 +497,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image43">
+              <object class="GtkLabel" id="label44">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">12</property>
@@ -511,10 +510,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image44">
+              <object class="GtkLabel" id="label45">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">13</property>
@@ -524,10 +523,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image45">
+              <object class="GtkLabel" id="label46">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">14</property>
@@ -537,10 +536,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image46">
+              <object class="GtkLabel" id="label47">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">15</property>
@@ -550,10 +549,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image47">
+              <object class="GtkLabel" id="label48">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">16</property>
@@ -563,10 +562,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image48">
+              <object class="GtkLabel" id="label49">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">17</property>
@@ -576,10 +575,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image49">
+              <object class="GtkLabel" id="label50">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">18</property>
@@ -589,10 +588,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image50">
+              <object class="GtkLabel" id="label51">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">19</property>
@@ -602,10 +601,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image51">
+              <object class="GtkLabel" id="label52">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">20</property>
@@ -615,10 +614,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image52">
+              <object class="GtkLabel" id="label53">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">21</property>
@@ -628,10 +627,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image53">
+              <object class="GtkLabel" id="label54">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">22</property>
@@ -641,10 +640,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image54">
+              <object class="GtkLabel" id="label55">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">23</property>
@@ -654,10 +653,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image55">
+              <object class="GtkLabel" id="label56">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">24</property>
@@ -667,10 +666,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image56">
+              <object class="GtkLabel" id="label57">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">25</property>
@@ -680,10 +679,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image57">
+              <object class="GtkLabel" id="label58">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">26</property>
@@ -693,10 +692,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image58">
+              <object class="GtkLabel" id="label59">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">27</property>
@@ -706,10 +705,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image59">
+              <object class="GtkLabel" id="label60">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">28</property>
@@ -719,10 +718,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image60">
+              <object class="GtkLabel" id="label61">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">29</property>
@@ -732,10 +731,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image61">
+              <object class="GtkLabel" id="label62">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="top_attach">2</property>
@@ -743,10 +742,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image62">
+              <object class="GtkLabel" id="label63">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -756,10 +755,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image63">
+              <object class="GtkLabel" id="label64">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
@@ -769,10 +768,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image64">
+              <object class="GtkLabel" id="label65">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">3</property>
@@ -782,10 +781,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image65">
+              <object class="GtkLabel" id="label66">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">4</property>
@@ -795,10 +794,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image66">
+              <object class="GtkLabel" id="label67">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">5</property>
@@ -808,10 +807,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image67">
+              <object class="GtkLabel" id="label68">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">6</property>
@@ -821,10 +820,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image68">
+              <object class="GtkLabel" id="label69">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">7</property>
@@ -834,10 +833,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image69">
+              <object class="GtkLabel" id="label70">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">8</property>
@@ -847,10 +846,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image70">
+              <object class="GtkLabel" id="label71">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">9</property>
@@ -860,10 +859,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image71">
+              <object class="GtkLabel" id="label72">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">10</property>
@@ -873,10 +872,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image72">
+              <object class="GtkLabel" id="label73">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">11</property>
@@ -886,10 +885,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image73">
+              <object class="GtkLabel" id="label74">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">12</property>
@@ -899,10 +898,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image74">
+              <object class="GtkLabel" id="label75">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">13</property>
@@ -912,10 +911,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image75">
+              <object class="GtkLabel" id="label76">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">14</property>
@@ -925,10 +924,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image76">
+              <object class="GtkLabel" id="label77">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">15</property>
@@ -938,10 +937,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image77">
+              <object class="GtkLabel" id="label78">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">16</property>
@@ -951,10 +950,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image78">
+              <object class="GtkLabel" id="label79">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">17</property>
@@ -964,10 +963,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image79">
+              <object class="GtkLabel" id="label80">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">18</property>
@@ -977,10 +976,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image80">
+              <object class="GtkLabel" id="label81">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">19</property>
@@ -990,10 +989,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image81">
+              <object class="GtkLabel" id="label82">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">20</property>
@@ -1003,10 +1002,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image82">
+              <object class="GtkLabel" id="label83">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">21</property>
@@ -1016,10 +1015,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image83">
+              <object class="GtkLabel" id="label84">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">22</property>
@@ -1029,10 +1028,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image84">
+              <object class="GtkLabel" id="label85">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">23</property>
@@ -1042,10 +1041,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image85">
+              <object class="GtkLabel" id="label86">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">24</property>
@@ -1055,10 +1054,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image86">
+              <object class="GtkLabel" id="label87">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">25</property>
@@ -1068,10 +1067,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image87">
+              <object class="GtkLabel" id="label88">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">26</property>
@@ -1081,10 +1080,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image88">
+              <object class="GtkLabel" id="label89">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">27</property>
@@ -1094,10 +1093,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image89">
+              <object class="GtkLabel" id="label90">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">28</property>
@@ -1107,10 +1106,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image90">
+              <object class="GtkLabel" id="label91">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">29</property>
@@ -1120,10 +1119,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image91">
+              <object class="GtkLabel" id="label92">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="top_attach">3</property>
@@ -1131,10 +1130,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image92">
+              <object class="GtkLabel" id="label93">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -1144,10 +1143,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image93">
+              <object class="GtkLabel" id="label94">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
@@ -1157,10 +1156,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image94">
+              <object class="GtkLabel" id="label95">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">3</property>
@@ -1170,10 +1169,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image95">
+              <object class="GtkLabel" id="label96">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">4</property>
@@ -1183,10 +1182,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image96">
+              <object class="GtkLabel" id="label97">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">5</property>
@@ -1196,10 +1195,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image97">
+              <object class="GtkLabel" id="label98">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">6</property>
@@ -1209,10 +1208,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image98">
+              <object class="GtkLabel" id="label99">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">7</property>
@@ -1222,10 +1221,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image99">
+              <object class="GtkLabel" id="label100">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">8</property>
@@ -1235,10 +1234,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image100">
+              <object class="GtkLabel" id="label101">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">9</property>
@@ -1248,10 +1247,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image101">
+              <object class="GtkLabel" id="label102">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">10</property>
@@ -1261,10 +1260,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image102">
+              <object class="GtkLabel" id="label103">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">11</property>
@@ -1274,10 +1273,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image103">
+              <object class="GtkLabel" id="label104">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">12</property>
@@ -1287,10 +1286,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image104">
+              <object class="GtkLabel" id="label105">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">13</property>
@@ -1300,10 +1299,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image105">
+              <object class="GtkLabel" id="label106">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">14</property>
@@ -1313,10 +1312,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image106">
+              <object class="GtkLabel" id="label107">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">15</property>
@@ -1326,10 +1325,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image107">
+              <object class="GtkLabel" id="label108">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">16</property>
@@ -1339,10 +1338,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image108">
+              <object class="GtkLabel" id="label109">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">17</property>
@@ -1352,10 +1351,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image109">
+              <object class="GtkLabel" id="label110">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">18</property>
@@ -1365,10 +1364,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image110">
+              <object class="GtkLabel" id="label111">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">19</property>
@@ -1378,10 +1377,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image111">
+              <object class="GtkLabel" id="label112">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">20</property>
@@ -1391,10 +1390,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image112">
+              <object class="GtkLabel" id="label113">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">21</property>
@@ -1404,10 +1403,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image113">
+              <object class="GtkLabel" id="label114">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">22</property>
@@ -1417,10 +1416,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image114">
+              <object class="GtkLabel" id="label115">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">23</property>
@@ -1430,10 +1429,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image115">
+              <object class="GtkLabel" id="label116">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">24</property>
@@ -1443,10 +1442,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image116">
+              <object class="GtkLabel" id="label117">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">25</property>
@@ -1456,10 +1455,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image117">
+              <object class="GtkLabel" id="label118">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">26</property>
@@ -1469,10 +1468,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image118">
+              <object class="GtkLabel" id="label119">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">27</property>
@@ -1482,10 +1481,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image119">
+              <object class="GtkLabel" id="label120">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">28</property>
@@ -1495,10 +1494,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image120">
+              <object class="GtkLabel" id="label121">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">29</property>
@@ -1508,10 +1507,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image121">
+              <object class="GtkLabel" id="label122">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="top_attach">4</property>
@@ -1519,10 +1518,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image122">
+              <object class="GtkLabel" id="label123">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -1532,10 +1531,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image123">
+              <object class="GtkLabel" id="label124">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
@@ -1545,10 +1544,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image124">
+              <object class="GtkLabel" id="label125">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">3</property>
@@ -1558,10 +1557,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image125">
+              <object class="GtkLabel" id="label126">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">4</property>
@@ -1571,10 +1570,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image126">
+              <object class="GtkLabel" id="label127">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">5</property>
@@ -1584,10 +1583,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image127">
+              <object class="GtkLabel" id="label128">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">6</property>
@@ -1597,10 +1596,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image128">
+              <object class="GtkLabel" id="label129">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">7</property>
@@ -1610,10 +1609,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image129">
+              <object class="GtkLabel" id="label130">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">8</property>
@@ -1623,10 +1622,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image130">
+              <object class="GtkLabel" id="label131">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">9</property>
@@ -1636,10 +1635,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image131">
+              <object class="GtkLabel" id="label132">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">10</property>
@@ -1649,10 +1648,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image132">
+              <object class="GtkLabel" id="label133">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">11</property>
@@ -1662,10 +1661,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image133">
+              <object class="GtkLabel" id="label134">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">12</property>
@@ -1675,10 +1674,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image134">
+              <object class="GtkLabel" id="label135">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">13</property>
@@ -1688,10 +1687,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image135">
+              <object class="GtkLabel" id="label136">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">14</property>
@@ -1701,10 +1700,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image136">
+              <object class="GtkLabel" id="label137">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">15</property>
@@ -1714,10 +1713,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image137">
+              <object class="GtkLabel" id="label138">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">16</property>
@@ -1727,10 +1726,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image138">
+              <object class="GtkLabel" id="label139">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">17</property>
@@ -1740,10 +1739,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image139">
+              <object class="GtkLabel" id="label140">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">18</property>
@@ -1753,10 +1752,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image140">
+              <object class="GtkLabel" id="label141">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">19</property>
@@ -1766,10 +1765,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image141">
+              <object class="GtkLabel" id="label142">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">20</property>
@@ -1779,10 +1778,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image142">
+              <object class="GtkLabel" id="label143">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">21</property>
@@ -1792,10 +1791,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image143">
+              <object class="GtkLabel" id="label144">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">22</property>
@@ -1805,10 +1804,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image144">
+              <object class="GtkLabel" id="label145">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">23</property>
@@ -1818,10 +1817,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image145">
+              <object class="GtkLabel" id="label146">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">24</property>
@@ -1831,10 +1830,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image146">
+              <object class="GtkLabel" id="label147">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">25</property>
@@ -1844,10 +1843,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image147">
+              <object class="GtkLabel" id="label148">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">26</property>
@@ -1857,10 +1856,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image148">
+              <object class="GtkLabel" id="label149">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">27</property>
@@ -1870,10 +1869,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image149">
+              <object class="GtkLabel" id="label150">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">28</property>
@@ -1883,10 +1882,10 @@
               </packing>
             </child>
             <child>
-              <object class="GtkImage" id="image150">
+              <object class="GtkLabel" id="label151">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="stock">gtk-missing-image</property>
+                <property name="label" translatable="yes">label</property>
               </object>
               <packing>
                 <property name="left_attach">29</property>
@@ -1904,7 +1903,7 @@
         </child>
         <child>
           <object class="GtkButton" id="button2">
-            <property name="label" translatable="yes">Sair</property>
+            <property name="label" translatable="yes">Exit</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
